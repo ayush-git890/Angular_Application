@@ -15,4 +15,6 @@ export class AppComponent {
   openBridgeLabz(): void {
     window.open(this.bridgeLabzUrl, "_blank");
   }
+
+  userName: string = '';  // Stores user input
 }
