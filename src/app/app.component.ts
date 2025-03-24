@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyAngularApp';
-  message: string = "Hello from BridgeLabz";
+  message: string = "Hello Ayush! from BridgeLabz";
   logoUrl: string = "assets/bridge-labz.webp";
+
+  bridgeLabzUrl: string = "https://www.bridgelabz.com";
+
+  openBridgeLabz(): void {
+    window.open(this.bridgeLabzUrl, "_blank");
+  }
 }
